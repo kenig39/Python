@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 {% load static %}
-<html lang="en">
+<html lang="ru">
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>ROBOTX</title>
-	<link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,600' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="css/font-awesome.css">
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/animate.css">
-	<link rel="stylesheet" href="css/prettyPhoto.css">
-	<link href="style.css" rel="stylesheet">
-	<link href="css/responsive.css" rel="stylesheet">
+	<title>AlexRobotix</title>
+<!--	<link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>-->
+<!--	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,600' rel='stylesheet' type='text/css'>-->
+	<link rel="stylesheet" href="{% static 'css/font-awesome.css' %}">
+	<link rel="stylesheet" href="{% static 'css/bootstrap.min.css'%}">
+	<link rel="stylesheet" href="{% static 'css/animate.css' %}">
+	<link rel="stylesheet" href="{% static 'css/prettyPhoto.css'%}">
+	<link href="{% static 'css/styles.css'%}" rel="stylesheet">
+	<link href="{% static 'css/responsive.css'%}" rel="stylesheet">
 
 
 	<!--[if lt IE 9]>
@@ -32,17 +32,17 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="#"><img src="{% static 'images/fo-logo.png'%}" alt=""></a>
+				<a class="navbar-brand" href="#"><img src="{% static 'images/fo-logo.png'%}" alt="logo"></a>
 			</div>
 			<div class="collapse navbar-collapse" id="myNavbar">
 				<ul class="nav navbar-nav navbar-right">
-					<li class="active smooth-scroll"><a href="#home">Home</a></li>
-					<li class="smooth-scroll"><a href="#service">Service</a></li>
-					<li class="smooth-scroll"><a href="#team">Team</a></li>
-					<li class="smooth-scroll"><a href="#gallery">Gallery</a></li>
-					<li class="smooth-scroll"><a href="#price">Price</a></li>
-					<li class="smooth-scroll"><a href="#news">News</a></li>
-					<li class="smooth-scroll"><a href="#contact">Contact</a></li>
+					<li class="active smooth-scroll"><a href="#Домой">На главную</a></li>
+					<li class="smooth-scroll"><a href="#сервис">Сервис</a></li>
+					<li class="smooth-scroll"><a href="#Наша команда">Наша команда</a></li>
+					<li class="smooth-scroll"><a href="#Наше производство">Наше производство</a></li>
+					<li class="smooth-scroll"><a href="#Цены">Цена</a></li>
+					<li class="smooth-scroll"><a href="#Новости">Новости</a></li>
+					<li class="smooth-scroll"><a href="#Контакты">Контакты</a></li>
 				</ul>
 			</div>
 		</div>
@@ -66,9 +66,35 @@
 					<div class="row">
 						<div class="col-md-12 wow bounceInUp">
 							<div class="home-text text-center">
-								<h1>ROBOT<span>X</span></h1>
+								<h1>AlexRototi<span>X</span></h1>
 
-								<h3>WEB DEVELOPMENT SOLUTIONS</h3>
+								<h3>Производство промышленных роботов</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="item">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12 wow bounceInUp">
+							<div class="home-text text-center">
+								<h1>AlexRoboti<span>X</span></h1>
+
+								<h3>Производство промышленных роботов</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="item">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12 wow bounceInUp">
+							<div class="home-text text-center">
+								<h1>AlexRobiti<span>X</span></h1>
+
+								<h3>Производство промышленных роботов</h3>
 							</div>
 						</div>
 					</div>
@@ -81,33 +107,7 @@
 							<div class="home-text text-center">
 								<h1>ROBOT<span>X</span></h1>
 
-								<h3>WEB DEVELOPMENT SOLUTIONS</h3>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="item">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12 wow bounceInUp">
-							<div class="home-text text-center">
-								<h1>ROBOT<span>X</span></h1>
-
-								<h3>WEB DEVELOPMENT SOLUTIONS</h3>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="item">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12 wow bounceInUp">
-							<div class="home-text text-center">
-								<h1>ROBOT<span>X</span></h1>
-
-								<h3>WEB DEVELOPMENT SOLUTIONS</h3>
+								<h3>Производство роботов для предприятий</h3>
 							</div>
 						</div>
 					</div>
@@ -125,7 +125,7 @@
 		<div class="row">
 			<div class="col-md-12  wow bounce">
 				<div class="section-heading text-center text-uppercase  wow bounceInUp">
-					<h2>OUR <span>SERVICeS</span></h2>
+					<h2>Наш <span>Сервис</span></h2>
 				</div>
 			</div>
 		</div>
@@ -136,7 +136,7 @@
 			<div class="col-sm-6 col-md-3  wow bounceIn">
 				<div class="single-item text-center">
 					<i class="fa fa-laptop"></i>
-					<h4 class="text-uppercase">Responsive Design</h4>
+					<h4 class="text-uppercase">Дизайн</h4>
 
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
 					<a href="#" class="btn btn-red text-uppercase">more</a>
@@ -145,7 +145,7 @@
 			<div class="col-sm-6 col-md-3 wow bounceInUp">
 				<div class="single-item text-center">
 					<i class="fa fa-globe"></i>
-					<h4 class="text-uppercase">Web Development</h4>
+					<h4 class="text-uppercase">Програмное обеспечение</h4>
 
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
 					<a href="#" class="btn btn-red text-uppercase">more</a>
@@ -178,12 +178,12 @@
 <section id="team">
 	<div class="container">
 		<div class="section-heading text-center text-uppercase wow  wow bounceInRight">
-			<h2>OUR <span>team</span></h2>
+			<h2>Наша <span>Команда</span></h2>
 		</div>
 		<div class="row  wow bounceInLeft">
 			<div class="col-sm-6 col-md-3">
 				<div class="single-team">
-					<img src="img/team1.jpg" alt="">
+					<img src="{% static 'images/robo.png'%}" alt="">
 
 					<h3>Web Designer</h3>
 
@@ -200,7 +200,7 @@
 			</div>
 			<div class="col-sm-6 col-md-3">
 				<div class="single-team">
-					<img src="img/team2.jpg" alt="">
+					<img src="{% static 'images/robo.png'%}" alt="">
 
 					<h3>Web Developer</h3>
 
@@ -217,7 +217,7 @@
 			</div>
 			<div class="col-sm-6 col-md-3">
 				<div class="single-team">
-					<img src="img/team3.jpg" alt="">
+					<img src="{% static 'images/robo.png'%}" alt="">
 
 					<h3>Web Designer</h3>
 
@@ -234,7 +234,7 @@
 			</div>
 			<div class="col-sm-6 col-md-3">
 				<div class="single-team">
-					<img src="img/team4.jpg" alt="">
+					<img src="{% static 'images/robo.png'%}" alt="">
 
 					<h3>Apps Developer</h3>
 
@@ -323,7 +323,7 @@
 		<div class="row">
 			<div class="col-sm-10 col-sm-offset-1">
 				<div class="section-heading text-center text-uppercase  wow shake">
-					<h2>OUR <span>GALLERY</span></h2>
+					<h2>Наша<span>Галерея</span></h2>
 
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
 						labore et dolore magna aliqua. Ut enim ad minim veniam, quis fugiat nulla pariatur.
@@ -337,9 +337,9 @@
 	</div>
 	<div class="gallery-btn text-center text-uppercase">
 		<a href="#" class="active btn btn-trans" data-filter="*">ALL</a>
-		<a href="#" class="btn btn-trans" data-filter=".web">CORPORATE WEB SITE</a>
-		<a href="#" class="btn btn-trans" data-filter=".design">RESPONSIVE DESIGN</a>
-		<a href="#" class="btn btn-trans" data-filter=".app">MOBILE aPPS</a>
+		<a href="#" class="btn btn-trans" data-filter=".web">Наш WEB сайт</a>
+		<a href="#" class="btn btn-trans" data-filter=".design">Дезаин</a>
+		<a href="#" class="btn btn-trans" data-filter=".app">Мобильное приложение</a>
 		<a href="#" class="btn btn-trans" data-filter=".theme">WORDPRESS THEME</a>
 		<a href="#" class="btn btn-trans" data-filter=".hosting">WEB HOSTING</a>
 	</div>
@@ -347,101 +347,101 @@
 		<div class="row no-gutter">
 			<div class="gellery-item text-center">
 				<div class="single-gl web theme col-md-2 col-sm-3">
-					<img src="img/gl1.jpg" alt="">
+					<img src="{% static 'images/robo.png'%}" alt="">
 
 					<div class="gl-overlay">
 						<div class="caption">
-							<a href="img/gl1.jpg" data-gallery="prettyPhoto"><i class="fa fa-search"></i></a>
+							<a href="{% static 'images/robo.png'%}" data-gallery="prettyPhoto"><i class="fa fa-search"></i></a>
 							<a href="#"><i class="fa fa-expand"></i></a>
 						</div>
 					</div>
 				</div>
 				<div class="single-gl web col-md-2 col-sm-3">
-					<img src="img/gl2.jpg" alt="">
+					<img src="{% static 'images/robo.png'%}" alt="">
 
 					<div class="gl-overlay">
 						<div class="caption">
-							<a href="img/gl2.jpg" data-gallery="prettyPhoto"><i class="fa fa-search"></i></a>
+							<a href="{% static 'images/robo.png'%}" data-gallery="prettyPhoto"><i class="fa fa-search"></i></a>
 							<a href="#"><i class="fa fa-expand"></i></a>
 						</div>
 					</div>
 				</div>
 				<div class="single-gl design theme col-md-2 col-sm-3">
-					<img src="img/gl3.jpg" alt="">
+					<img src="{% static 'images/robo.png'%}" alt="">
 
 					<div class="gl-overlay">
 						<div class="caption">
-							<a href="img/gl3.jpg" data-gallery="prettyPhoto"><i class="fa fa-search"></i></a>
+							<a href="{% static 'images/robo.png'%}" data-gallery="prettyPhoto"><i class="fa fa-search"></i></a>
 							<a href="#"><i class="fa fa-expand"></i></a>
 						</div>
 					</div>
 				</div>
 				<div class="single-gl hosting design col-md-2  col-sm-3">
-					<img src="img/gl4.jpg" alt="">
+					<img src="{% static 'images/robo.png'%}" alt="">
 
 					<div class="gl-overlay">
 						<div class="caption">
-							<a href="img/gl5.jpg" data-gallery="prettyPhoto"><i class="fa fa-search"></i></a>
+							<a href="{% static 'images/robo.png'%}" data-gallery="prettyPhoto"><i class="fa fa-search"></i></a>
 							<a href="#"><i class="fa fa-expand"></i></a>
 						</div>
 					</div>
 				</div>
 				<div class="single-gl design web col-md-2 col-sm-3">
-					<img src="img/gl5.jpg" alt="">
+					<img src="{% static 'images/robo.png'%}" alt="">
 
 					<div class="gl-overlay">
 						<div class="caption">
-							<a href="img/gl5.jpg" data-gallery="prettyPhoto"><i class="fa fa-search"></i></a>
+							<a href="{% static 'images/robo.png'%}" data-gallery="prettyPhoto"><i class="fa fa-search"></i></a>
 							<a href="#"><i class="fa fa-expand"></i></a>
 						</div>
 					</div>
 				</div>
 				<div class="single-gl hosting design col-md-2 col-sm-3">
-					<img src="img/gl6.jpg" alt="">
+					<img src="{% static 'images/robo.png'%}" alt="">
 
 					<div class="gl-overlay">
 						<div class="caption">
-							<a href="img/gl6.jpg" data-gallery="prettyPhoto"><i class="fa fa-search"></i></a>
+							<a href="{% static 'images/robo.png'%}" data-gallery="prettyPhoto"><i class="fa fa-search"></i></a>
 							<a href="#"><i class="fa fa-expand"></i></a>
 						</div>
 					</div>
 				</div>
 				<div class="single-gl app theme col-md-2 col-sm-3">
-					<img src="img/gl7.jpg" alt="">
+					<img src="{% static 'images/robo.png'%}" alt="">
 
 					<div class="gl-overlay">
 						<div class="caption">
-							<a href="img/gl7.jpg" data-gallery="prettyPhoto"><i class="fa fa-search"></i></a>
+							<a href="{% static 'images/robo.png'%}" data-gallery="prettyPhoto"><i class="fa fa-search"></i></a>
 							<a href="#"><i class="fa fa-expand"></i></a>
 						</div>
 					</div>
 				</div>
 				<div class="single-gl hosting web col-md-2 col-sm-3">
-					<img src="img/gl8.jpg" alt="">
+					<img src="{% static 'images/robo.png'%}" alt="">
 
 					<div class="gl-overlay">
 						<div class="caption">
-							<a href="img/gl8.jpg" data-gallery="prettyPhoto"><i class="fa fa-search"></i></a>
+							<a href="{% static 'images/robo.png'%}" data-gallery="prettyPhoto"><i class="fa fa-search"></i></a>
 							<a href="#"><i class="fa fa-expand"></i></a>
 						</div>
 					</div>
 				</div>
 				<div class="single-gl app col-md-2 col-sm-3">
-					<img src="img/gl9.jpg" alt="">
+					<img src="{% static 'images/robo.png'%}" alt="">
 
 					<div class="gl-overlay">
 						<div class="caption">
-							<a href="img/gl9.jpg" data-gallery="prettyPhoto"><i class="fa fa-search"></i></a>
+							<a href="{% static 'images/robo.png'%}" data-gallery="prettyPhoto"><i class="fa fa-search"></i></a>
 							<a href="#"><i class="fa fa-expand"></i></a>
 						</div>
 					</div>
 				</div>
 				<div class="single-gl app theme col-md-2 col-sm-3">
-					<img src="img/gl10.jpg" alt="">
+					<img src="{% static 'images/robo.png'%}" alt="">
 
 					<div class="gl-overlay">
 						<div class="caption">
-							<a href="img/gl10.jpg" data-gallery="prettyPhoto"><i class="fa fa-search"></i></a>
+							<a href="{% static 'images/robo.png'%}" data-gallery="prettyPhoto"><i class="fa fa-search"></i></a>
 							<a href="#"><i class="fa fa-expand"></i></a>
 						</div>
 					</div>
@@ -454,7 +454,7 @@
 <section id="price">
 	<div class="container">
 		<div class="section-heading text-center text-uppercase">
-			<h2>OUR <span>price</span></h2>
+			<h2>Наши <span>цены</span></h2>
 		</div>
 		<div class="row">
 			<div class="col-sm-4">
@@ -689,7 +689,7 @@
 	</div>
 	<div id="map-overlay" class="text-left text-uppercase">
 		<div class="container">
-			<h2>+29 20 466 4241</h2>
+			<h2>+968-889-82-89</h2>
 
 			<h2>info@robotx.com</h2>
 		</div>
@@ -729,11 +729,11 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-2 text-center">
-				<a href=""><img src="img/fo-logo.png" alt="logo"></a>
+				<a href=""><img src="{% static 'images/robo.png' %}" alt="logo"></a>
 			</div>
 			<div class="col-sm-8">
 				<div class="footer-p text-center">
-					<p>© Copyright 2014 - 2015, All Rights Reserved, Designed by: www.designoatmeal.com</p>
+					<p>Мы работаем с 2024 года</p>
 				</div>
 			</div>
 			<div class="col-sm-2">
@@ -748,13 +748,13 @@
 		</div>
 	</div>
 </footer>
-<script src="js/jquery-1.11.3.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/isotope.2.2.2min.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js"></script>
-<script src="js/wow.min.js"></script>
-<script src="js/jquery.prettyPhoto.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-<script src="js/main.js"></script>
+<!--<script src="js/jquery-1.11.3.min.js"></script>-->
+<!--<script src="js/bootstrap.min.js"></script>-->
+<!--<script src="js/isotope.2.2.2min.js"></script>-->
+<!--<script src="https://maps.googleapis.com/maps/api/js"></script>-->
+<!--<script src="js/wow.min.js"></script>-->
+<!--<script src="js/jquery.prettyPhoto.js"></script>-->
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>-->
+<!--<script src="js/main.js"></script>-->
 </body>
 </html>
