@@ -1,12 +1,13 @@
 
 
 <!DOCTYPE html>
+{% load static %}
 <html lang="ru">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Заголовок страницы</title>
-    <link rel="stylesheet" href="./styles/style.css">
+    <title>Системы для создания роботов</title>
+<!--    <link rel="stylesheet" href="{% static "css/styles.css" %}" />-->
 
     <meta property="og:title" content="Заголовок страницы в OG">
     <meta property="og:description" content="Описание страницы в OG">
@@ -15,8 +16,8 @@
   </head>
   <body>
     <header>
-      <h1>Личный сайт</h1>
-      <p>Который сделан на основе готового шаблона</p>
+      <h1>Сайт о робо системах</h1>
+      <p>Который сделан моими руками в качестве учебы</p>
       <nav>
         <ul>
           <li><a href="index.html">Эта страница</a></li>
@@ -29,7 +30,7 @@
         <section>
           <h2>Первая секция</h2>
           <p>Она обо мне</p>
-          <img src="images/image.png" alt="Человек и пароход">
+          <img src="{% static 'images/robot.jpg'%}" alt="Сборка роботов">
           <p>Но может быть и о семантике, я пока не решил.</p>
         </section>
         <section>
